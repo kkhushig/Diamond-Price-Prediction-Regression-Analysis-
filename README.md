@@ -12,8 +12,6 @@ This project aims to analyze the diamonds dataset to predict diamond prices base
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
 
 ## Introduction
 The chosen dataset for this project is `diamonds.csv`, which includes a variety of attributes related to diamonds. The goal is to uncover patterns and relationships between these attributes and diamond pricing, enhancing our understanding of the diamond market. The analysis will employ seven regression models, including:

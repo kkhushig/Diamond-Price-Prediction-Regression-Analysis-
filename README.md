@@ -77,6 +77,17 @@ Each model's performance was evaluated based on R² (Coefficient of Determinatio
 ## Results
 The models demonstrated robust performance, with negligible differences between training and testing R² values. The Multi-Layer Perceptron (MLP) regressor yielded the highest predictive accuracy.
 
+| Method                              | Train R² | Test R² | Difference |
+|-------------------------------------|----------|---------|------------|
+| Multi-Layer Perceptron Regressor   | 0.984    | 0.982   | 0.002      |
+| Random Forest Regressor             | 0.9521   | 0.9446  | 0.0075     |
+| Decision Tree Regressor             | 0.9466   | 0.9423  | 0.0043     |
+| Multiple Linear (Polynomial) Regression | 0.944  | 0.930   | 0.014      |
+| Simple Linear Regression             | 0.892    | 0.889   | 0.003      |
+| Lasso Regression (L1)               | 0.8918   | 0.8886  | 0.0032     |
+| Ridge Regression (L2)               | 0.8918   | 0.8885  | 0.0033     |
+
+
 ## Conclusion
 Comprehensive data preprocessing contributed to the models' predictive power, ensuring reliable and generalizable results. The MLP regressor emerged as the most effective model for diamond price prediction.
 
